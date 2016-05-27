@@ -60,7 +60,8 @@ public class MessageManager {
 	
 	/**
 	 * SendMessage
-	 * 
+	 *
+	 * (
 	 * Sends a pre formated message from the plugin to a player, adding correct prefix first
 	 * 
 	 * @param type
