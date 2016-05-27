@@ -4,13 +4,11 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Vector;
 
+
 import org.bukkit.ChatColor;
-import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
-import org.bukkit.plugin.PluginDescriptionFile;
 import org.mcsg.survivalgames.MessageManager.PrefixType;
 import org.mcsg.survivalgames.commands.AddWall;
 import org.mcsg.survivalgames.commands.CreateArena;
@@ -49,6 +47,7 @@ public class CommandHandler implements CommandExecutor {
 		loadCommands();
 		loadHelpInfo();
 	}
+
 
 	private void loadCommands() {
 		commands.put("createarena", new CreateArena());
